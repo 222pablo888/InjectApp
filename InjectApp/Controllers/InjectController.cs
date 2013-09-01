@@ -22,6 +22,7 @@ namespace InjectApp.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Inject(InjectModel injectModel)
         {
             CurrentInjectModel = injectModel;
