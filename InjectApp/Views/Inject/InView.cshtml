@@ -15,8 +15,8 @@
     <div>
         
         @Html.Raw(Model.InjectImageLink);
-            
         <img src="@Model.ImageLink" />
+        @Html.Raw(Model.InjectJavaScript)
     </div>
 </body>
 </html>
