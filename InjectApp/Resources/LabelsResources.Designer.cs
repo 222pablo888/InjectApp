@@ -86,5 +86,14 @@ namespace InjectApp.Resources {
                 return ResourceManager.GetString("InjectImageLink", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inject Java Script.
+        /// </summary>
+        public static string InjectJavaScript {
+            get {
+                return ResourceManager.GetString("InjectJavaScript", resourceCulture);
+            }
+        }
     }
 }

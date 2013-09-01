@@ -126,4 +126,7 @@
   <data name="InjectImageLink" xml:space="preserve">
     <value>Inject Image Link</value>
   </data>
+  <data name="InjectJavaScript" xml:space="preserve">
+    <value>Inject Java Script</value>
+  </data>
 </root>

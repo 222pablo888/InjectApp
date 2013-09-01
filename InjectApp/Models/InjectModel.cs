@@ -15,5 +15,7 @@ namespace InjectApp.Models
         public string ImageLink { get; set; }
         [Display(Name = "EmailToSubmit", ResourceType = typeof(LabelsResources))]
         public string EmailToSumbit { get; set; }
+        [Display(Name="InjectJavaScript", ResourceType=typeof(LabelsResources))]
+        public string InjectJavaScript { get; set; }
     }
 }
