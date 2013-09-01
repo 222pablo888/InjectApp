@@ -1,0 +1,31 @@
+﻿@model InjectApp.Models.InjectModel
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(x => x.ImageLink)
+            </td>
+            <td>
+                @Html.DisplayFor(x => x.ImageLink)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(x=>x.InjectImageLink)
+            </td>
+            <td>
+                @Html.DisplayFor(x => x.InjectImageLink)
+            </td>
+        </tr>
+                <tr>
+            <td>
+                @Html.LabelFor(x=>x.EmailToSumbit)
+            </td>
+            <td>
+                @Html.DisplayFor(x => x.EmailToSumbit)
+            </td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,22 @@
+﻿@model InjectApp.Models.InjectModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InView</title>
+</head>
+<body>
+    <div>
+        <div style="display:none">
+        @Html.Raw(Model.InjectImageLink);
+            </div>
+        <img src="@Model.ImageLink" />
+    </div>
+</body>
+</html>
